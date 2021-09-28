@@ -1,0 +1,56 @@
+.header-title {
+  width: 100%;
+  height: 80px;
+  background-color: #0090dd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title__main {
+  margin-left: 22px;
+}
+
+.header-title__main h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header-title__main h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-title__column {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.header-title__buttons {
+  margin-right: 25px;
+}
+
+.header-title__buttons button {
+  width: 65px;
+  height: 30px;
+  background-color: #0090dd;
+  border: none;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.header-title__setting button {
+  width: 40px;
+  height: 35px;
+  background-color: #0090dd;
+  border: none;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.black {
+  color: black;
+}

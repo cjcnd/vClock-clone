@@ -1,0 +1,23 @@
+#grid {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.main-first__article {
+  width: 100px;
+  height: 935px;
+  background-color: #3d3c3c;
+  color: var(--main-gray-color);
+}
+
+.main-first__list-items {
+  width: 100px;
+  height: 90px;
+  position: relative;
+}
+
+.main-first__text {
+  position: absolute;
+  bottom: 0;
+  left: 30;
+}
